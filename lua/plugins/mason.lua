@@ -1,6 +1,7 @@
 if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
 
 -- Customize Mason
+--
 
 ---@type LazySpec
 return {
@@ -22,6 +23,10 @@ return {
 
         -- install any other package
         "tree-sitter-cli",
+
+        "eslint-lsp",
+
+        "prettierd",
       },
     },
   },
